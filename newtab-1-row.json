@@ -1,0 +1,1251 @@
+{
+  "settings": {
+    
+  },
+  "visits": [
+    
+  ],
+  "notifications": [
+    
+  ],
+  "siteSettings": {
+    
+  },
+  "updates": {
+    "status": "update-none"
+  },
+  "adblock": {
+    "etag": "\"6f6cf9d0c5e7f471ad2babdf724b6fba\"",
+    "lastCheckVersion": "2",
+    "lastCheckDate": 1476367738706
+  },
+  "sites": [
+    {
+      "lastAccessedTime": 1476367858609,
+      "tags": [
+        
+      ],
+      "title": "Quora - The best answer to any question",
+      "location": "https:\/\/www.quora.com\/",
+      "partitionNumber": 0
+    },
+    {
+      "lastAccessedTime": 1476367861331,
+      "tags": [
+        
+      ],
+      "title": "World\u2019s Largest Professional Network | LinkedIn",
+      "location": "https:\/\/www.linkedin.com\/",
+      "partitionNumber": 0,
+      "themeColor": "rgb(51, 51, 51)"
+    },
+    {
+      "lastAccessedTime": 1476367864465,
+      "tags": [
+        
+      ],
+      "title": "Hacker News",
+      "location": "https:\/\/news.ycombinator.com\/",
+      "partitionNumber": 0
+    },
+    {
+      "lastAccessedTime": 1476367866324,
+      "tags": [
+        
+      ],
+      "title": "YouTube",
+      "location": "https:\/\/www.youtube.com\/",
+      "partitionNumber": 0,
+      "themeColor": "rgb(255, 255, 255)"
+    },
+    {
+      "lastAccessedTime": 1476367871994,
+      "tags": [
+        
+      ],
+      "title": "hotmail - Bing",
+      "location": "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD",
+      "partitionNumber": 0
+    },
+    {
+      "lastAccessedTime": 1476367894834,
+      "tags": [
+        
+      ],
+      "title": "Twitter. It's what's happening.",
+      "location": "https:\/\/twitter.com\/",
+      "partitionNumber": 0,
+      "favicon": "https:\/\/abs.twimg.com\/favicons\/favicon.ico",
+      "themeColor": "rgb(255, 255, 255)"
+    }
+  ],
+  "about": {
+    "newtab": {
+      "gridLayout": "small",
+      "sites": [
+        {
+          "location": "https:\/\/twitter.com\/",
+          "title": "Twitter. It's what's happening.",
+          "partitionNumber": 0,
+          "tags": [
+            
+          ],
+          "favicon": "https:\/\/abs.twimg.com\/favicons\/favicon.ico",
+          "themeColor": "rgb(255, 255, 255)"
+        },
+        {
+          "location": "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD",
+          "title": "hotmail - Bing",
+          "partitionNumber": 0,
+          "tags": [
+            
+          ],
+          "themeColor": null
+        },
+        {
+          "location": "https:\/\/www.youtube.com\/",
+          "title": "YouTube",
+          "partitionNumber": 0,
+          "tags": [
+            
+          ],
+          "themeColor": "rgb(255, 255, 255)"
+        },
+        {
+          "location": "https:\/\/news.ycombinator.com\/",
+          "title": "Hacker News",
+          "partitionNumber": 0,
+          "tags": [
+            
+          ],
+          "themeColor": null
+        },
+        {
+          "location": "https:\/\/www.linkedin.com\/",
+          "title": "World\u2019s Largest Professional Network | LinkedIn",
+          "partitionNumber": 0,
+          "tags": [
+            
+          ],
+          "themeColor": "rgb(51, 51, 51)"
+        },
+        {
+          "location": "https:\/\/www.quora.com\/",
+          "title": "Quora - The best answer to any question",
+          "partitionNumber": 0,
+          "tags": [
+            
+          ],
+          "themeColor": null
+        }
+      ],
+      "ignoredTopSites": [
+        
+      ],
+      "pinnedTopSites": [
+        
+      ]
+    }
+  },
+  "trackingProtection": {
+    "etag": "\"75d8ccace3a981fb4437214028c2e111\"",
+    "lastCheckVersion": "1",
+    "lastCheckDate": 1476367738699,
+    "count": 9
+  },
+  "autofill": {
+    "addresses": {
+      "guid": [
+        
+      ],
+      "timestamp": 0
+    },
+    "creditCards": {
+      "guid": [
+        
+      ],
+      "timestamp": 0
+    }
+  },
+  "extensions": {
+    "mnojpmjdmbbfmejpflffifhffcmidifd": {
+      "enabled": true,
+      "filePath": "\/var\/www\/html\/browser-laptop\/app\/extensions\/brave",
+      "name": "brave",
+      "url": "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/",
+      "manifest": {
+        "content_scripts": [
+          {
+            "all_frames": true,
+            "css": [
+              "brave-default.css"
+            ],
+            "exclude_globs": [
+              "file:\/\/\/var\/www\/html\/browser-laptop\/app\/extensions\/brave\/index-dev.html"
+            ],
+            "include_globs": [
+              "http:\/\/*\/*",
+              "https:\/\/*\/*",
+              "file:\/\/*",
+              "data:*",
+              "about:srcdoc"
+            ],
+            "js": [
+              "content\/scripts\/util.js",
+              "content\/scripts\/navigator.js",
+              "content\/scripts\/blockFlash.js",
+              "content\/scripts\/blockCanvasFingerprinting.js",
+              "content\/scripts\/block3rdPartyContent.js",
+              "content\/scripts\/inputHandler.js"
+            ],
+            "match_about_blank": true,
+            "matches": [
+              "<all_urls>"
+            ],
+            "run_at": "document_start"
+          },
+          {
+            "all_frames": true,
+            "exclude_globs": [
+              "file:\/\/\/var\/www\/html\/browser-laptop\/app\/extensions\/brave\/index-dev.html"
+            ],
+            "include_globs": [
+              "http:\/\/*\/*",
+              "https:\/\/*\/*",
+              "file:\/\/*",
+              "data:*",
+              "about:srcdoc"
+            ],
+            "js": [
+              "content\/scripts\/adInsertion.js",
+              "content\/scripts\/passwordManager.js",
+              "content\/scripts\/flashListener.js",
+              "content\/scripts\/pageInformation.js"
+            ],
+            "matches": [
+              "<all_urls>"
+            ],
+            "run_at": "document_end"
+          },
+          {
+            "all_frames": false,
+            "exclude_globs": [
+              "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-blank.html",
+              "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-blank.html#*"
+            ],
+            "include_globs": [
+              "http:\/\/*\/*",
+              "https:\/\/*\/*",
+              "file:\/\/*",
+              "data:*",
+              "about:srcdoc",
+              "file:\/\/\/var\/www\/html\/browser-laptop\/app\/extensions\/brave\/index-dev.html",
+              "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-*.html",
+              "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-*.html#*"
+            ],
+            "js": [
+              "content\/scripts\/spellCheck.js",
+              "content\/scripts\/themeColor.js"
+            ],
+            "matches": [
+              "<all_urls>"
+            ],
+            "run_at": "document_end"
+          },
+          {
+            "exclude_globs": [
+              "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-blank.html",
+              "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-blank.html#*"
+            ],
+            "include_globs": [
+              "file:\/\/\/var\/www\/html\/browser-laptop\/app\/extensions\/brave\/index-dev.html",
+              "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-*.html",
+              "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-*.html#*"
+            ],
+            "js": [
+              "content\/scripts\/util.js",
+              "content\/scripts\/inputHandler.js"
+            ],
+            "matches": [
+              "<all_urls>"
+            ],
+            "run_at": "document_start"
+          }
+        ],
+        "permissions": [
+          "externally_connectable.all_urls",
+          "tabs",
+          "<all_urls>",
+          "contentSettings",
+          "idle"
+        ],
+        "web_accessible_resources": [
+          "about-*.html",
+          "img\/favicon.ico"
+        ],
+        "manifest_version": 2,
+        "name": "brave",
+        "content_security_policy": "default-src 'self' http:\/\/localhost:8080; form-action 'none'; referrer no-referrer; style-src 'self' 'unsafe-inline' http:\/\/localhost:8080; img-src * data:; frame-src 'self' https:\/\/buy.coinbase.com; connect-src 'self' http:\/\/localhost:8080 ws:\/\/localhost:8080;",
+        "incognito": "spanning",
+        "background": {
+          "scripts": [
+            "content\/scripts\/idleHandler.js"
+          ]
+        },
+        "version": "1.0",
+        "externally_connectable": {
+          "matches": [
+            "<all_urls>"
+          ]
+        },
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupOLMy5Fd4dCSOtjcApsAQOnuBdTs+OvBVt\/3P93noIrf068x0xXkvxbn+fpigcqfNamiJ5CjGyfx9zAIs7zcHwbxjOw0Uih4SllfgtK+svNTeE0r5atMWE0xR489BvsqNuPSxYJUmW28JqhaSZ4SabYrRx114KcU6ko7hkjyPkjQa3P+chStJjIKYgu5tWBiMJp5QVLelKoM+xkY6S7efvJ8AfajxCViLGyDQPDviGr2D0VvIBob0D1ZmAoTvYOWafcNCaqaejPDybFtuLFX3pZBqfyOCyyzGhucyCmfBXJALKbhjRAqN5glNsUmGhhPK87TuGATQfVuZtenMvXMQIDAQAB"
+      },
+      "base_path": "file:\/\/\/var\/www\/html\/browser-laptop\/app\/extensions\/brave",
+      "version": "1.0",
+      "id": "mnojpmjdmbbfmejpflffifhffcmidifd",
+      "description": ""
+    },
+    "jdbefljfgobbmcidnmpjamcbhnbphjnb": {
+      "enabled": true,
+      "filePath": "\/home\/kahlo\/.config\/brave-development\/Extensions\/jdbefljfgobbmcidnmpjamcbhnbphjnb\/1.5.444",
+      "name": "PDF Viewer",
+      "url": "chrome-extension:\/\/jdbefljfgobbmcidnmpjamcbhnbphjnb\/",
+      "manifest": {
+        "content_scripts": [
+          {
+            "all_frames": true,
+            "css": [
+              "contentstyle.css"
+            ],
+            "js": [
+              "contentscript.js"
+            ],
+            "matches": [
+              "http:\/\/*\/*",
+              "https:\/\/*\/*",
+              "ftp:\/\/*\/*",
+              "file:\/\/*\/*"
+            ],
+            "run_at": "document_start"
+          }
+        ],
+        "file_browser_handlers": [
+          {
+            "default_title": "Open with PDF Viewer",
+            "file_filters": [
+              "filesystem:*.pdf"
+            ],
+            "id": "open-as-pdf"
+          }
+        ],
+        "permissions": [
+          "fileBrowserHandler",
+          "webRequest",
+          "webRequestBlocking",
+          "<all_urls>",
+          "tabs",
+          "webNavigation",
+          "storage"
+        ],
+        "page_action": {
+          "default_icon": {
+            "19": "icon19.png",
+            "38": "icon38.png"
+          },
+          "default_popup": "pageActionPopup.html",
+          "default_title": "Show PDF URL"
+        },
+        "web_accessible_resources": [
+          "content\/web\/viewer.html",
+          "http:\/*",
+          "https:\/*",
+          "ftp:\/*",
+          "file:\/*",
+          "chrome-extension:\/*",
+          "filesystem:\/*",
+          "drive:*"
+        ],
+        "manifest_version": 2,
+        "name": "PDF Viewer",
+        "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+        "incognito": "split",
+        "background": {
+          "page": "pdfHandler.html"
+        },
+        "version": "1.5.444",
+        "icons": {
+          "16": "icon16.png",
+          "48": "icon48.png",
+          "128": "icon128.png"
+        },
+        "storage": {
+          "managed_schema": "preferences_schema.json"
+        },
+        "description": "Uses HTML5 to display PDF files directly in the browser.",
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqmqh6Kxmj00IjKvjPsCtw6g2BHvKipjS3fBD0IInXZZ57u5oZfw6q42L7tgWDLrNDPvu3XDH0vpECr+IcgBjkM+w6+2VdTyPj5ubngTwvBqCIPItetpsZNJOJfrFw0OIgmyekZYsI+BsK7wiMtHczwfKSTi0JKgrwIRhHbEhpUnCxFhi+zI61p9jwMb2EBFwxru7MtpP21jG7pVznFeLV9W9BkNL1Th9QBvVs7GvZwtIIIniQkKtqT1wp4IY9\/mDeM5SgggKakumCnT9D37ZxDnM2K13BKAXOkeH6JLGrZCl3aXmqDO9OhLwoch+LGb5IaXwOZyGnhdhm9MNA3hgEwIDAQAB"
+      },
+      "base_path": "file:\/\/\/home\/kahlo\/.config\/brave-development\/Extensions\/jdbefljfgobbmcidnmpjamcbhnbphjnb\/1.5.444",
+      "version": "1.5.444",
+      "id": "jdbefljfgobbmcidnmpjamcbhnbphjnb",
+      "description": "Uses HTML5 to display PDF files directly in the browser."
+    }
+  },
+  "menubar": {
+    
+  },
+  "safeBrowsing": {
+    "etag": "\"3454cebce437566d8af160d43836b68b\"",
+    "lastCheckVersion": "1",
+    "lastCheckDate": 1476367738702
+  },
+  "defaultWindowWidth": 1865,
+  "dictionary": {
+    "addedWords": [
+      
+    ],
+    "ignoredWords": [
+      
+    ]
+  },
+  "ledgerInfo": {
+    
+  },
+  "httpsEverywhere": {
+    "etag": "\"88e8e81ba132758e5cf4af85ada6295f\"",
+    "lastCheckVersion": "5.2",
+    "lastCheckDate": 1476367738750,
+    "count": 6
+  },
+  "passwords": [
+    
+  ],
+  "defaultWindowHeight": 1056,
+  "temporarySiteSettings": {
+    
+  },
+  "firstRunTimestamp": 1476367738245,
+  "menu": {
+    "template": [
+      {
+        "label": "File",
+        "submenu": [
+          {
+            "label": "New Tab",
+            "accelerator": "CmdOrCtrl+T"
+          },
+          {
+            "label": "New Private Tab",
+            "accelerator": "Shift+CmdOrCtrl+P"
+          },
+          {
+            "label": "New Session Tab",
+            "accelerator": "Shift+CmdOrCtrl+S"
+          },
+          {
+            "label": "New Window",
+            "accelerator": "CmdOrCtrl+N"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Open File\u2026",
+            "accelerator": "CmdOrCtrl+O"
+          },
+          {
+            "label": "Open Location\u2026",
+            "accelerator": "CmdOrCtrl+L"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Close",
+            "accelerator": "CmdOrCtrl+W"
+          },
+          {
+            "label": "Close Window",
+            "accelerator": "CmdOrCtrl+Shift+W"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Save Page as\u2026",
+            "accelerator": "CmdOrCtrl+S"
+          },
+          {
+            "label": "Share\u2026",
+            "visible": false
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Print\u2026",
+            "accelerator": "CmdOrCtrl+P"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Quit Brave",
+            "accelerator": "CmdOrCtrl+Q"
+          }
+        ]
+      },
+      {
+        "label": "Edit",
+        "submenu": [
+          {
+            "label": "Undo",
+            "accelerator": "CmdOrCtrl+Z",
+            "role": "undo"
+          },
+          {
+            "label": "Redo",
+            "accelerator": "Shift+CmdOrCtrl+Z",
+            "role": "redo"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Cut",
+            "accelerator": "CmdOrCtrl+X",
+            "role": "cut"
+          },
+          {
+            "label": "Copy",
+            "accelerator": "CmdOrCtrl+C",
+            "role": "copy"
+          },
+          {
+            "label": "Paste",
+            "accelerator": "CmdOrCtrl+V",
+            "role": "paste"
+          },
+          {
+            "label": "Paste without formatting",
+            "accelerator": "Shift+CmdOrCtrl+V"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Delete",
+            "accelerator": "Delete"
+          },
+          {
+            "label": "Select All",
+            "accelerator": "CmdOrCtrl+A",
+            "role": "selectall"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Find on Page\u2026",
+            "accelerator": "CmdOrCtrl+F"
+          },
+          {
+            "label": "Find Next",
+            "visible": false,
+            "accelerator": "CmdOrCtrl+G"
+          },
+          {
+            "label": "Find Previous",
+            "visible": false,
+            "accelerator": "Shift+CmdOrCtrl+G"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Settings\u2026",
+            "accelerator": "CmdOrCtrl+,"
+          }
+        ]
+      },
+      {
+        "label": "View",
+        "submenu": [
+          {
+            "label": "Actual Size",
+            "accelerator": "CmdOrCtrl+0"
+          },
+          {
+            "label": "Zoom In",
+            "accelerator": "CmdOrCtrl+="
+          },
+          {
+            "label": "Zoom Out",
+            "accelerator": "CmdOrCtrl+-"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Stop",
+            "accelerator": "Esc"
+          },
+          {
+            "label": "Reload Page",
+            "accelerator": "CmdOrCtrl+R"
+          },
+          {
+            "label": "Clean Reload",
+            "accelerator": "CmdOrCtrl+Shift+R"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Toggle Developer Tools",
+            "accelerator": "Ctrl+Shift+I"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Toggle Full Screen View",
+            "accelerator": "F11"
+          }
+        ]
+      },
+      {
+        "label": "History",
+        "submenu": [
+          {
+            "label": "Home",
+            "accelerator": "CmdOrCtrl+Shift+H"
+          },
+          {
+            "label": "Back",
+            "accelerator": "CmdOrCtrl+["
+          },
+          {
+            "label": "Forward",
+            "accelerator": "CmdOrCtrl+]"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Reopen Last Closed Tab",
+            "accelerator": "Shift+CmdOrCtrl+T"
+          },
+          {
+            "label": "Reopen Last Closed Window",
+            "accelerator": "Alt+Shift+CmdOrCtrl+T"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Clear History\u2026",
+            "accelerator": "Shift+CmdOrCtrl+Delete"
+          },
+          {
+            "label": "Clear Cache\u2026"
+          },
+          {
+            "label": "Clear All Cookies and Site Data\u2026"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Show History",
+            "accelerator": "CmdOrCtrl+Y"
+          }
+        ]
+      },
+      {
+        "label": "Bookmarks",
+        "submenu": [
+          {
+            "label": "Bookmark Page",
+            "type": "checkbox",
+            "accelerator": "CmdOrCtrl+D",
+            "checked": false
+          },
+          {
+            "label": "Add to Favorites Bar",
+            "visible": false,
+            "accelerator": "Shift+CmdOrCtrl+D"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Bookmarks Manager\u2026",
+            "accelerator": "Ctrl+Shift+O"
+          },
+          {
+            "label": "Bookmarks Toolbar",
+            "type": "checkbox",
+            "checked": false
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Import Browser Data\u2026"
+          }
+        ]
+      },
+      {
+        "label": "Bravery",
+        "submenu": [
+          {
+            "label": "Bravery global settings\u2026"
+          },
+          {
+            "label": "Bravery site settings\u2026"
+          },
+          {
+            "label": "Start using Brave Payments\u2026"
+          }
+        ]
+      },
+      {
+        "label": "Window",
+        "submenu": [
+          {
+            "label": "Minimize",
+            "accelerator": "CmdOrCtrl+M",
+            "role": "minimize"
+          },
+          {
+            "label": "Zoom",
+            "visible": false
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Select Next Tab",
+            "accelerator": "Ctrl+Tab"
+          },
+          {
+            "label": "Select Previous Tab",
+            "accelerator": "Ctrl+Shift+Tab"
+          },
+          {
+            "label": "Move to New Window",
+            "visible": false
+          },
+          {
+            "label": "Merge All Windows",
+            "visible": false
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Bookmarks Manager\u2026",
+            "accelerator": "Ctrl+Shift+O"
+          },
+          {
+            "label": "Downloads Manager\u2026",
+            "accelerator": "Ctrl+J"
+          },
+          {
+            "label": "Passwords Manager\u2026"
+          }
+        ],
+        "role": "window"
+      },
+      {
+        "label": "Help",
+        "submenu": [
+          {
+            "label": "Report an Issue"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Submit Feedback\u2026"
+          },
+          {
+            "label": "Spread the word about Brave\u2026"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Check for Updates\u2026"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "About Brave"
+          }
+        ],
+        "role": "help"
+      },
+      {
+        "label": "Debug",
+        "submenu": [
+          {
+            "label": "append wait renderer switch"
+          },
+          {
+            "label": "Crash main process"
+          },
+          {
+            "label": "Relaunch",
+            "accelerator": "Command+Alt+R"
+          },
+          {
+            "label": "Toggle Browser Console",
+            "accelerator": "Shift+F8"
+          },
+          {
+            "label": "Toggle React Profiling",
+            "accelerator": "Alt+P"
+          }
+        ]
+      }
+    ]
+  },
+  "perWindowState": [
+    {
+      "activeFrameKey": 7,
+      "closedFrames": [
+        
+      ],
+      "frames": [
+        {
+          "canGoBack": false,
+          "canGoForward": false,
+          "computedThemeColor": null,
+          "endLoadTime": 1476367858600,
+          "findDetail": {
+            "caseSensitivity": false,
+            "searchString": ""
+          },
+          "fingerprintingProtection": {
+            
+          },
+          "history": [
+            "https:\/\/www.quora.com\/"
+          ],
+          "hrefPreview": "",
+          "icon": "https:\/\/www.quora.com\/favicon.ico",
+          "isPrivate": false,
+          "key": 1,
+          "location": "https:\/\/www.quora.com\/",
+          "navbar": {
+            "focused": false,
+            "urlbar": {
+              "active": false,
+              "focused": false,
+              "location": "https:\/\/www.quora.com\/",
+              "selected": false,
+              "suggestions": {
+                "autocompleteEnabled": true,
+                "searchResults": [
+                  
+                ],
+                "selectedIndex": null,
+                "suggestionList": null,
+                "urlSuffix": ""
+              },
+              "urlPreview": null
+            }
+          },
+          "partitionNumber": 0,
+          "provisionalLocation": "https:\/\/www.quora.com\/",
+          "showOnRight": false,
+          "src": "https:\/\/www.quora.com\/",
+          "startLoadTime": 1476367857823,
+          "title": "Quora - The best answer to any question",
+          "zoomLevel": 0,
+          "unloaded": true
+        },
+        {
+          "canGoBack": false,
+          "canGoForward": false,
+          "computedThemeColor": "rgb(51, 51, 51)",
+          "endLoadTime": 1476367861315,
+          "findDetail": {
+            "caseSensitivity": false,
+            "searchString": ""
+          },
+          "fingerprintingProtection": {
+            
+          },
+          "history": [
+            "https:\/\/www.linkedin.com\/"
+          ],
+          "hrefPreview": "",
+          "icon": "https:\/\/static.licdn.com\/scds\/common\/u\/images\/logos\/favicons\/v1\/favicon.ico",
+          "isPartitioned": false,
+          "isPrivate": false,
+          "key": 2,
+          "location": "https:\/\/www.linkedin.com\/",
+          "navbar": {
+            "focused": true,
+            "urlbar": {
+              "active": false,
+              "focused": true,
+              "location": "https:\/\/www.linkedin.com\/",
+              "selected": false,
+              "suggestions": {
+                "autocompleteEnabled": true,
+                "searchResults": [
+                  
+                ],
+                "selectedIndex": null,
+                "suggestionList": null,
+                "urlSuffix": ""
+              },
+              "urlPreview": null
+            }
+          },
+          "partitionNumber": 0,
+          "provisionalLocation": "https:\/\/www.linkedin.com\/",
+          "showOnRight": false,
+          "src": "https:\/\/www.linkedin.com\/",
+          "startLoadTime": 1476367860523,
+          "title": "World\u2019s Largest Professional Network | LinkedIn",
+          "zoomLevel": 0,
+          "unloaded": true
+        },
+        {
+          "canGoBack": false,
+          "canGoForward": false,
+          "computedThemeColor": null,
+          "endLoadTime": 1476367864463,
+          "findDetail": {
+            "caseSensitivity": false,
+            "searchString": ""
+          },
+          "fingerprintingProtection": {
+            
+          },
+          "history": [
+            "https:\/\/news.ycombinator.com\/"
+          ],
+          "hrefPreview": "",
+          "icon": "https:\/\/news.ycombinator.com\/favicon.ico",
+          "isPartitioned": false,
+          "isPrivate": false,
+          "key": 3,
+          "location": "https:\/\/news.ycombinator.com\/",
+          "navbar": {
+            "focused": true,
+            "urlbar": {
+              "active": false,
+              "focused": true,
+              "location": "https:\/\/news.ycombinator.com\/",
+              "selected": false,
+              "suggestions": {
+                "autocompleteEnabled": true,
+                "searchResults": [
+                  
+                ],
+                "selectedIndex": null,
+                "suggestionList": null,
+                "urlSuffix": ""
+              },
+              "urlPreview": null
+            }
+          },
+          "partitionNumber": 0,
+          "provisionalLocation": "https:\/\/news.ycombinator.com\/",
+          "showOnRight": false,
+          "src": "https:\/\/news.ycombinator.com\/",
+          "startLoadTime": 1476367864156,
+          "title": "Hacker News",
+          "zoomLevel": 0,
+          "unloaded": true
+        },
+        {
+          "canGoBack": false,
+          "canGoForward": false,
+          "computedThemeColor": "rgb(255, 255, 255)",
+          "endLoadTime": 1476367866319,
+          "findDetail": {
+            "caseSensitivity": false,
+            "searchString": ""
+          },
+          "fingerprintingProtection": {
+            
+          },
+          "history": [
+            "https:\/\/www.youtube.com\/",
+            "https:\/\/www.youtube.com\/"
+          ],
+          "hrefPreview": "",
+          "icon": "https:\/\/s.ytimg.com\/yts\/img\/favicon-vflz7uhzw.ico",
+          "isPartitioned": false,
+          "isPrivate": false,
+          "key": 4,
+          "location": "https:\/\/www.youtube.com\/",
+          "navbar": {
+            "focused": false,
+            "urlbar": {
+              "active": false,
+              "focused": false,
+              "location": "https:\/\/www.youtube.com\/",
+              "selected": false,
+              "suggestions": {
+                "autocompleteEnabled": true,
+                "searchResults": [
+                  
+                ],
+                "selectedIndex": null,
+                "suggestionList": null,
+                "urlSuffix": ""
+              },
+              "urlPreview": null
+            }
+          },
+          "partitionNumber": 0,
+          "provisionalLocation": "https:\/\/www.youtube.com\/",
+          "showOnRight": false,
+          "src": "https:\/\/www.youtube.com\/",
+          "startLoadTime": 1476367866057,
+          "title": "YouTube",
+          "zoomLevel": 0,
+          "unloaded": true
+        },
+        {
+          "canGoBack": false,
+          "canGoForward": false,
+          "computedThemeColor": null,
+          "endLoadTime": 1476367871991,
+          "findDetail": {
+            "caseSensitivity": false,
+            "searchString": ""
+          },
+          "fingerprintingProtection": {
+            
+          },
+          "history": [
+            "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD"
+          ],
+          "hrefPreview": "",
+          "icon": "https:\/\/www.bing.com\/sa\/simg\/bing_p_rr_teal_min.ico",
+          "isPartitioned": false,
+          "isPrivate": false,
+          "key": 5,
+          "location": "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD",
+          "navbar": {
+            "focused": false,
+            "urlbar": {
+              "active": false,
+              "focused": false,
+              "location": "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD",
+              "selected": false,
+              "suggestions": {
+                "autocompleteEnabled": true,
+                "searchResults": [
+                  
+                ],
+                "selectedIndex": null,
+                "suggestionList": null,
+                "urlSuffix": ""
+              },
+              "urlPreview": null
+            }
+          },
+          "partitionNumber": 0,
+          "provisionalLocation": "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD",
+          "showOnRight": false,
+          "src": "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD",
+          "startLoadTime": 1476367871587,
+          "title": "hotmail - Bing",
+          "zoomLevel": 0,
+          "unloaded": true
+        },
+        {
+          "canGoBack": false,
+          "canGoForward": false,
+          "computedThemeColor": "rgb(255, 255, 255)",
+          "endLoadTime": 1476367894831,
+          "findDetail": {
+            "caseSensitivity": false,
+            "searchString": ""
+          },
+          "fingerprintingProtection": {
+            
+          },
+          "history": [
+            "https:\/\/twitter.com\/",
+            "https:\/\/twitter.com\/"
+          ],
+          "hrefPreview": "",
+          "icon": "https:\/\/abs.twimg.com\/favicons\/favicon.ico",
+          "isPartitioned": false,
+          "isPrivate": false,
+          "key": 6,
+          "location": "https:\/\/twitter.com\/",
+          "navbar": {
+            "focused": false,
+            "urlbar": {
+              "active": false,
+              "focused": false,
+              "location": "https:\/\/twitter.com\/",
+              "selected": false,
+              "suggestions": {
+                "autocompleteEnabled": true,
+                "searchResults": [
+                  
+                ],
+                "selectedIndex": null,
+                "suggestionList": null,
+                "urlSuffix": ""
+              },
+              "urlPreview": null
+            }
+          },
+          "partitionNumber": 0,
+          "provisionalLocation": "https:\/\/twitter.com\/",
+          "showOnRight": false,
+          "src": "https:\/\/twitter.com\/",
+          "startLoadTime": 1476367894814,
+          "title": "Twitter. It's what's happening.",
+          "zoomLevel": 0,
+          "unloaded": true
+        },
+        {
+          "canGoBack": false,
+          "canGoForward": false,
+          "endLoadTime": 1476367895116,
+          "findDetail": {
+            "caseSensitivity": false,
+            "searchString": ""
+          },
+          "fingerprintingProtection": {
+            
+          },
+          "history": [
+            
+          ],
+          "hrefPreview": "",
+          "isPartitioned": false,
+          "isPrivate": false,
+          "key": 7,
+          "location": "about:newtab",
+          "navbar": {
+            "focused": false,
+            "urlbar": {
+              "active": false,
+              "focused": false,
+              "location": "about:newtab",
+              "selected": false,
+              "suggestions": {
+                "searchResults": [
+                  
+                ],
+                "selectedIndex": null,
+                "suggestionList": null
+              },
+              "urlPreview": null
+            }
+          },
+          "partitionNumber": 0,
+          "provisionalLocation": "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-newtab.html?devServerPort=8080",
+          "showOnRight": false,
+          "src": "about:newtab",
+          "startLoadTime": 1476367895060,
+          "title": "New Tab",
+          "zoomLevel": 0
+        }
+      ],
+      "searchDetail": {
+        "autocompleteURL": "https:\/\/suggestqueries.google.com\/complete\/search?client=chrome&q={searchTerms}",
+        "searchURL": "https:\/\/www.google.com\/search?q={searchTerms}"
+      },
+      "tabs": [
+        {
+          "computedThemeColor": null,
+          "icon": "https:\/\/www.quora.com\/favicon.ico",
+          "title": "Quora - The best answer to any question",
+          "isPrivate": false,
+          "partitionNumber": 0,
+          "frameKey": 1,
+          "provisionalLocation": "https:\/\/www.quora.com\/",
+          "location": "https:\/\/www.quora.com\/"
+        },
+        {
+          "computedThemeColor": "rgb(51, 51, 51)",
+          "icon": "https:\/\/static.licdn.com\/scds\/common\/u\/images\/logos\/favicons\/v1\/favicon.ico",
+          "title": "World\u2019s Largest Professional Network | LinkedIn",
+          "isPrivate": false,
+          "partitionNumber": 0,
+          "frameKey": 2,
+          "provisionalLocation": "https:\/\/www.linkedin.com\/",
+          "location": "https:\/\/www.linkedin.com\/"
+        },
+        {
+          "computedThemeColor": null,
+          "icon": "https:\/\/news.ycombinator.com\/favicon.ico",
+          "title": "Hacker News",
+          "isPrivate": false,
+          "partitionNumber": 0,
+          "frameKey": 3,
+          "provisionalLocation": "https:\/\/news.ycombinator.com\/",
+          "location": "https:\/\/news.ycombinator.com\/"
+        },
+        {
+          "computedThemeColor": "rgb(255, 255, 255)",
+          "icon": "https:\/\/s.ytimg.com\/yts\/img\/favicon-vflz7uhzw.ico",
+          "title": "YouTube",
+          "isPrivate": false,
+          "partitionNumber": 0,
+          "frameKey": 4,
+          "provisionalLocation": "https:\/\/www.youtube.com\/",
+          "location": "https:\/\/www.youtube.com\/"
+        },
+        {
+          "computedThemeColor": null,
+          "icon": "https:\/\/www.bing.com\/sa\/simg\/bing_p_rr_teal_min.ico",
+          "title": "hotmail - Bing",
+          "isPrivate": false,
+          "partitionNumber": 0,
+          "frameKey": 5,
+          "provisionalLocation": "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD",
+          "location": "https:\/\/www.bing.com\/search?q=hotmail&form=MSSRPD"
+        },
+        {
+          "computedThemeColor": "rgb(255, 255, 255)",
+          "icon": "https:\/\/abs.twimg.com\/favicons\/favicon.ico",
+          "title": "Twitter. It's what's happening.",
+          "isPrivate": false,
+          "partitionNumber": 0,
+          "frameKey": 6,
+          "provisionalLocation": "https:\/\/twitter.com\/",
+          "location": "https:\/\/twitter.com\/"
+        },
+        {
+          "title": "New Tab",
+          "isPrivate": false,
+          "partitionNumber": 0,
+          "frameKey": 7,
+          "provisionalLocation": "chrome-extension:\/\/mnojpmjdmbbfmejpflffifhffcmidifd\/about-newtab.html?devServerPort=8080",
+          "location": "about:newtab"
+        }
+      ],
+      "ui": {
+        "isFullScreen": false,
+        "menubar": {
+          "isVisible": false,
+          "selectedIndex": null
+        },
+        "mouseInTitlebar": false,
+        "tabs": {
+          "tabPageIndex": 0
+        }
+      }
+    }
+  ],
+  "cleanedOnShutdown": true,
+  "lastAppVersion": "0.12.4"
+}
